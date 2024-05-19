@@ -1,0 +1,60 @@
+.space {
+    width: 75%;
+    position: relative;
+    left: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    height: 88vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
+}
+
+.space::-webkit-scrollbar {
+    width: 1vw;
+}
+
+.space::-webkit-scrollbar-thumb {
+    background-color: #507ee1;
+    border-radius: 15px;
+}
+
+
+.testimonial-card .card-up {
+    height: 120px;
+    overflow: hidden;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.profile-section {
+    width: 23rem;
+}
+
+.aqua-gradient {
+    background: linear-gradient(40deg, #2096ff, #05ffa3) !important;
+}
+
+.testimonial-card .avatar {
+    width: 120px;
+    margin-top: -60px;
+    overflow: hidden;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width:1174px) {
+    .profile-section {
+        width: 18rem;
+    }
+}
+
+@media screen and (max-width:878px) {
+    .space {
+        grid-template-columns: 1fr;
+    }
+}

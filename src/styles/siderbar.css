@@ -1,0 +1,48 @@
+* {
+    border: none;
+    outline: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 10px;
+}
+
+.logo-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border: 50%;
+
+}
+
+.menu-bar {
+    height: 100vh;
+    margin-top: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 1rem;
+    position: relative;
+}
+
+@media screen and (max-width:540px) {
+    .sidebar {
+        flex: 0 0 50px !important;
+        max-width: 50px !important;
+        min-width: 50px !important;
+        width: 50px !important;
+    }
+}
